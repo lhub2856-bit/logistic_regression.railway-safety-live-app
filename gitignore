@@ -1,0 +1,17 @@
+# Secrets & personal data - NEVER upload these
+.streamlit/secrets.toml
+.env
+*.env
+secrets.toml
+*api_key*
+*apikey*
+*.pem
+*.key
+
+# Python junk (safe to ignore even if unused)
+__pycache__/
+*.pyc
+
+# OS junk files
+.DS_Store
+Thumbs.db
